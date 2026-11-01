@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Índice de Prototipos de Negocio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8F7F4;
+      --card: #FFFFFF;
+      --border: #E4E2DD;
+      --ink: #111827;
+      --muted: #4B5563;
+      --subtle: #F3F2EE;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.5;
+      padding: 40px 20px;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .lead {
+      font-size: 15px;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .card h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .card p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: var(--subtle);
+      color: var(--ink);
+    }
+    a.btn.primary {
+      background: var(--ink);
+      color: #FFFFFF;
+      border-color: var(--ink);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Índice de Prototipos de Negocio</h1>
+    <p class="lead">Directorio público de validación. Selecciona un prototipo para probarlo en vivo o compartir tu retroalimentación anónima.</p>
+
+    <div class="list">
+      <article class="card">
+        <h2>1. Cuotas Auditor</h2>
+        <p>Analiza una foto o captura de pantalla de una oferta a plazos (Elektra, Tiendas MAX, Walmart o cualquier comercio en Guatemala) y muestra si te conviene comprar a cuotas o cuántos Quetzales (Q) terminas pagando de más frente al precio de contado.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://cuotas-auditor-gt.web.app" target="_blank" rel="noopener">Ver prototipo</a>
+          <a class="btn" href="https://cuotas-auditor-gt.web.app/?guia=1" target="_blank" rel="noopener">Cómo tomar la foto</a>
+          <a class="btn" href="https://cuotas-auditor-gt.web.app/?feedback=1" target="_blank" rel="noopener">Dar feedback</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>2. FisioGait</h2>
+        <p>Evaluación rápida de caminata para fisioterapeutas. Mide ángulos articulares (rodilla, caída pélvica e inclinación de tronco) sobre una foto o video del paciente caminando en pasillo con visión por computadora, comparando el ángulo real contra la meta clínica.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://fisio-gait-gt.web.app" target="_blank" rel="noopener">Ver prototipo</a>
+          <a class="btn" href="https://fisio-gait-gt.web.app/?guia=1" target="_blank" rel="noopener">Cómo grabar al paciente</a>
+          <a class="btn" href="https://fisio-gait-gt.web.app/?feedback=1" target="_blank" rel="noopener">Dar feedback</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>3. Dónde está mi medicina</h2>
+        <p>Buscador en tiempo real de existencia y precio de medicamentos en farmacias y supermercados de Guatemala (Batres, Galeno, Meykos, Cruz Verde, Walmart, Paiz y La Torre), ubicando la sucursal más cercana según tu zona o dirección.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://medicina-gt.web.app" target="_blank" rel="noopener">Ver prototipo</a>
+          <a class="btn" href="https://medicina-gt.web.app/?guia=1" target="_blank" rel="noopener">Cómo buscar</a>
+          <a class="btn" href="https://medicina-gt.web.app/?feedback=1" target="_blank" rel="noopener">Dar feedback</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
