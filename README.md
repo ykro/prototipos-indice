@@ -1,6 +1,6 @@
 # Índice de Prototipos de Negocio
 
-Directorio público de prototipos funcionales en etapa de validación. El código fuente de cada proyecto se mantiene en su repositorio privado correspondiente; desde este índice puedes abrir cada aplicación en vivo y enviar retroalimentación anónima.
+Directorio público de prototipos funcionales en etapa de validación. El código fuente de cada proyecto se mantiene en su repositorio privado correspondiente; desde este índice o desde el **[Portal Visual de Prototipos (`adrian-hub.web.app/prototipos/`)](https://adrian-hub.web.app/prototipos/)** puedes abrir cada aplicación en vivo y enviar retroalimentación anónima.
 
 ---
 
